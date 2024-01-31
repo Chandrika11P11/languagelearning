@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/languagelearning/static/css/main.20b43c59.chunk.css",
-    "main.js": "/languagelearning/static/js/main.06639551.chunk.js",
-    "main.js.map": "/languagelearning/static/js/main.06639551.chunk.js.map",
-    "runtime~main.js": "/languagelearning/static/js/runtime~main.21b45e12.js",
-    "runtime~main.js.map": "/languagelearning/static/js/runtime~main.21b45e12.js.map",
-    "static/js/2.912c6ad4.chunk.js": "/languagelearning/static/js/2.912c6ad4.chunk.js",
-    "static/js/2.912c6ad4.chunk.js.map": "/languagelearning/static/js/2.912c6ad4.chunk.js.map",
+    "main.css": "/languagelearning/static/css/main.d39bac66.css",
+    "main.js": "/languagelearning/static/js/main.d8fb5c19.js",
+    "static/media/left.png": "/languagelearning/static/media/left.e192746a4f2504c79ad5.png",
+    "static/media/right.png": "/languagelearning/static/media/right.38a475c1ae08ec11210f.png",
     "index.html": "/languagelearning/index.html",
-    "precache-manifest.9bcfa964b1b278981c909bbd066155c7.js": "/languagelearning/precache-manifest.9bcfa964b1b278981c909bbd066155c7.js",
-    "service-worker.js": "/languagelearning/service-worker.js",
-    "static/css/main.20b43c59.chunk.css.map": "/languagelearning/static/css/main.20b43c59.chunk.css.map",
-    "static/media/left.png": "/languagelearning/static/media/left.d1b5b521.png",
-    "static/media/right.png": "/languagelearning/static/media/right.6cf6e878.png"
-  }
+    "main.d39bac66.css.map": "/languagelearning/static/css/main.d39bac66.css.map",
+    "main.d8fb5c19.js.map": "/languagelearning/static/js/main.d8fb5c19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d39bac66.css",
+    "static/js/main.d8fb5c19.js"
+  ]
 }
