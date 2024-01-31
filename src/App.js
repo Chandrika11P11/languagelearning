@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import English from './English/English';
 
