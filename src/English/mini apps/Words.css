@@ -1,0 +1,78 @@
+.words{
+background-image: url('https://images.unsplash.com/photo-1550565118-3a14e8d0386f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  font-family: "Roboto Condensed", "Tiro Telugu";
+  font-size: 140%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.container {
+    box-shadow: 0 4px 15px -5px rgba(0, 0, 0, 0.7);
+    background: transparent;
+    backdrop-filter:  blur(8px) brightness(90%);
+    border: 1px solid rgb(254, 247, 225);
+    border-radius: 10px;
+    padding: 30px;
+    width: 650px;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .container .text {
+    display: flex;
+    flex-wrap: wrap;
+  } 
+h2{
+    color: #744f00;
+}
+p{
+    color: #4e3d01;
+    font-weight: bolder;
+}
+h3{
+    color: #ffe180;
+}
+  
+  .text-input{
+  
+    position: relative;
+    margin-top: 50px;
+    
+    input[type="text"]{
+      display: inline-block;
+      width: 500px;
+      height: 40px;
+      box-sizing: border-box;
+      outline: none;
+      border: 1px solid lightgray;
+      border-radius: 3px;
+      padding: 10px 10px 10px 100px;
+      transition: all 0.1s ease-out;
+    }
+}
+
+button {
+    position: relative;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      height: 25px;
+      line-height: 25px;
+      font-size: xx-small;
+      font-weight: bold;
+      border-radius: 15px;
+      border: 1px solid orange;
+      padding: 0 20px;
+      background: #ffc918;
+      font-family: Tiro Telugu;
+  color: black;
+      transform: translateZ(0) translateX(0);
+      transition: all 0.3s ease-in;
+      transition-delay: 0.2s;
+}
