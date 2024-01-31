@@ -13,13 +13,13 @@ const English = () => {
     <div>
       <div className='header'>
         <ul className='navbar'>
-          <li className='nav-item'><NavLink exact to="/">{'|'}Home{'|'}</NavLink></li>
+          <li className='nav-item'><NavLink exact to="/home">{'|'}Home{'|'}</NavLink></li>
           <li className='nav-item'><NavLink to="/words">{'|'}పదాల అర్దాలు{'|'}</NavLink></li>
           <li className='nav-item'><NavLink to="/conversation">{'|'}సంభాషణలు{'|'}</NavLink></li>
         </ul>
       </div>
         <Routes>
-          <Route path="/" element={<Description />}/>
+          <Route path="/home" element={<Description />}/>
           <Route path="/words" element={<Words />}/>
           <Route path="/conversation" element={<ChatBot/>}/>
         </Routes>
