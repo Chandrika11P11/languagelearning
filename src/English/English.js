@@ -19,7 +19,7 @@ const English = () => {
         </ul>
       </div>
         <Routes>
-          <Route path="/home" element={<Description />}/>
+          <Route path="/" element={<Description />}/>
           <Route path="/words" element={<Words />}/>
           <Route path="/conversation" element={<ChatBot/>}/>
         </Routes>
